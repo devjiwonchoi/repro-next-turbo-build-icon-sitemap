@@ -1,3 +1,7 @@
+### Summary
+
+The `runtime` set on the layout is not passed correctly to the children pages on TURBO BUILD.
+
 ### Steps to Reproduce
 
 1. Install the dependencies.
