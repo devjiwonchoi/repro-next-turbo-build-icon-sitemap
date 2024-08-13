@@ -1,8 +1,11 @@
+> [!NOTE]
+> This issue occurs at next build turbopack
+
 ## Issue 1
 
 ### Summary
 
-The `runtime` set on the layout is not passed correctly to the children pages on TURBO BUILD.
+The `runtime` set on the layout is not passed correctly to the Metadata File `icon.tsx`.
 
 ### Steps to Reproduce
 
