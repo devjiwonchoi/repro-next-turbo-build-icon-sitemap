@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 
-export default function icon({ params, id }) {
+export default function icon() {
   return new ImageResponse(
     (
       <div
@@ -15,7 +15,7 @@ export default function icon({ params, id }) {
           color: '#fafafa',
         }}
       >
-        Apple {params.size} {id}
+        Apple
       </div>
     )
   );
